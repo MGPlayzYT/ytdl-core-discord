@@ -10,6 +10,9 @@ A [ytdl-core](https://github.com/fent/node-ytdl-core/) wrapper focused on effici
 You can pass the exact same arguments as you would with the ytdl-core module, with the exception that
 you must `await` the function call.  
 
+# Fork by MGPlayz YT
+This fork was made to maintain the functionality of the package. This fork will (most of the time) have the latest ytdl-core version. If you're currently experiencing issues using ytdl-core-discord, try using this fork.
+
 ## What does it do?
 
 For compatible videos, this module uses [prism-media](https://github.com/amishshah/prism-media)
