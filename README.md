@@ -13,6 +13,7 @@ or
 npm i git://github.com/MGPlayzYT/ytdl-core-discord
 ```
 
+# Original description
 A [ytdl-core](https://github.com/fent/node-ytdl-core/) wrapper focused on efficiency for use in Discord music bots.
 
 You can pass the exact same arguments as you would with the ytdl-core module, with the exception that
