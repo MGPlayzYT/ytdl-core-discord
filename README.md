@@ -1,18 +1,22 @@
-# ytdl-core-discord
+# ytdl-core-discord  
 
-[![Build Status](https://travis-ci.org/amishshah/ytdl-core-discord.svg?branch=master)](https://travis-ci.org/amishshah/ytdl-core-discord)
-[![dependencies](https://david-dm.org/amishshah/ytdl-core-discord/status.svg)](https://david-dm.org/amishshah/ytdl-core-discord)
-[![npm](https://img.shields.io/npm/dt/ytdl-core-discord.svg)](https://www.npmjs.com/package/ytdl-core-discord)
-[![Patreon](https://img.shields.io/badge/donate-patreon-F96854.svg)](https://www.patreon.com/discordjs)
+## Fork by MGPlayz YT
+- This fork was made to catch up will `ytdl-core`'s frequent changes. This fork will (most of the time) have the latest ytdl-core version. If you're currently experiencing issues using ytdl-core-discord, try using this fork.
+
+## Fork installation
+To use this fork on your Discord bot:
+```
+npm i MGPlayzYT/ytdl-core-discord
+```
+or
+```
+npm i git://github.com/MGPlayzYT/ytdl-core-discord
+```
 
 A [ytdl-core](https://github.com/fent/node-ytdl-core/) wrapper focused on efficiency for use in Discord music bots.
 
 You can pass the exact same arguments as you would with the ytdl-core module, with the exception that
-you must `await` the function call.  
-
-# Fork by MGPlayz YT
-This fork was made to maintain the functionality of the package. This fork will (most of the time) have the latest ytdl-core version. If you're currently experiencing issues using ytdl-core-discord, try using this fork.
-
+you must `await` the function call.
 ## What does it do?
 
 For compatible videos, this module uses [prism-media](https://github.com/amishshah/prism-media)
@@ -36,5 +40,3 @@ async function play(connection, url) {
   connection.play(await ytdl(url), { type: 'opus' });
 }
 ```
-
-[![Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/discordjs)
